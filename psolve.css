@@ -1,0 +1,135 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	z-index:4;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+	z-index:4;
+}
+
+li.dropdown {
+    display: inline-block;
+	z-index:4;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:4;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+	z-index:4;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	z-index:4;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	z-index:4;
+}
+
+.dropdownb:hover .dropdown-contentb {
+    display: block;
+	bottom:100%;
+	z-index:4;
+}
+
+.oswald {
+  font-family: 'Oswald', serif;
+}
+
+.tbox {
+    height:100px;
+    width:100px;
+	bottom:300;
+}
+
+.rotate-container {
+    width: 500px;
+    height: 500px;
+	z-index:1;
+}
+.fader {
+	position: relative;
+    width: 500px;
+    height: 500px;
+	z-index:-1;
+}
+
+.default-slider {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.myform {
+	border-style:solid;
+	border-color:#bbb;
+	color: white;
+	background-color:#333;
+	padding:10px;
+	margin:0 auto;
+	height:325px;
+	width:400px;
+	z-index:1;
+}
+
+.floatright {
+	float:right
+}
+
+#my-problem {
+	width:350px;
+	height:200px;
+}
+
+.contact-button {
+
+}
+
+.footer {
+	clear:left;
+}
+
+.content-container {
+	display: flex;
+}
+
+.content-container .text {
+	padding: 0 25px;
+}
+
+header img{
+	display: block;
+	margin: 0 auto;
+}

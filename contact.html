@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Contact</title>
+	<link rel="stylesheet" href="psolve.css">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="oswald">
+
+	<header>
+		<a href="contact.html">
+			<img
+				class="centered"
+				src="title-image.jpg"
+				id="title-image"
+				alt="Celebrate Problem Solved"
+				title="Click to Solve Your Problems Now!"/>
+		</a>
+	</header>
+
+	<section>
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html">
+						<i class="fa fa-home fa-fw" aria-hidden="true"></i>
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="contact.html">
+						<i class="fa fa-address-book fa-fw" aria-hidden="true"></i>
+						Contact
+					</a>
+				</li>
+				<li class="dropdown">
+				<a class="dropbtn">
+					<i class="fa fa-cog fa-fw" aria-hidden="true"></i>
+					Services
+				</a>
+					<div class="dropdown-content">
+						<a href="service.html" class="ui-btn">
+							<i class="fa fa-pencil fa-fw" aria-hidden="true"></i>
+							Upgrades
+						</a>
+						<a href="under-construction.html" class="ui-btn">
+							<i class="fa fa-link fa-fw" aria-hidden="true"></i>
+							Network
+						</a>
+						<a href="under-construction.html" class="ui-btn">
+							<i class="fa fa-book fa-fw" aria-hidden="true"></i>
+							Learning
+						</a>
+					</div>
+				<li style="float:right">
+					<a href="about.html">
+						<i class="fa fa-resistance fa-fw" aria-hidden="true"></i>
+						About Problem Solved
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</section>
+
+	<section class="content-container">
+		<form
+			id="survey1"
+			class="myform"
+			action="http://www.cs.ucf.edu/courses/cgs3175/fall2008/forms/phpformprocessor.php"
+			method="post"
+		>
+
+			<div>
+				<input
+					type="text"
+					id="my-name"
+					name="Name"
+					placeholder="Your Name"
+					required
+				/>
+				<p>
+				<input
+					type="email"
+					id="my-email"
+					name="Email"
+					placeholder="Your E-mail"
+					required
+				/>
+			</div>
+			<div class="problembox">
+				<textarea
+					id="my-problem"
+					name="myProblem"
+					placeholder="Your Problem/Question"
+				></textarea>
+			</div>
+
+			<div class="contact-button">
+				<input id="submit" type="submit" value="Submit" disabled />
+				<input id="clear" type="reset" value="Clear" />
+			</div>
+		</form>
+	</section>
+
+	<footer>
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html">
+						<i class="fa fa-home fa-fw" aria-hidden="true"></i>
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="contact.html">
+						<i class="fa fa-address-book fa-fw" aria-hidden="true"></i>
+						Contact
+					</a>
+				</li>
+				<li class="dropdown">
+				<a class="dropbtn">
+					<i class="fa fa-cog fa-fw" aria-hidden="true"></i>
+					Services
+				</a>
+					<div class="dropdown-content">
+						<a href="service.html" class="ui-btn">
+							<i class="fa fa-pencil fa-fw" aria-hidden="true"></i>
+							Upgrades
+						</a>
+						<a href="under-construction.html" class="ui-btn">
+							<i class="fa fa-link fa-fw" aria-hidden="true"></i>
+							Network
+						</a>
+						<a href="under-construction.html" class="ui-btn">
+							<i class="fa fa-book fa-fw" aria-hidden="true"></i>
+							Learning
+						</a>
+					</div>
+				<li class="floatright">
+					<a href="about.html">
+						<i class="fa fa-resistance fa-fw" aria-hidden="true"></i>
+						About Problem Solved
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</footer>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="contact.js"></script>
+</body>
+</html>
